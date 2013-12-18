@@ -3,13 +3,18 @@
 Race continuables against each other. Returns a new continuable that results
 in the value of whatever continuable gets a value or error first.
 
-Like Promise.race() for continuables
+Like `Promise.race()` for continuables
 
 ## `race`
-`var race = require('continuable-race')`
+```
+var race = require('continuable-race')
 race(...continuables)(function (err, val) {
-  // Use whatever continuable that finished first
+  // Use the continuable that finished first
 })
+```
+
+`...continuables` is either variable length arguments or an array of continuables.
+`cont1, cont2...` or `[cont1, cont2...]`
 
 ## Example
 ```
