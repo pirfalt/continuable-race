@@ -5,10 +5,10 @@ in the value of whatever continuable gets a value or error first.
 
 Like `Promise.race()` for continuables
 
-## `race`
+## `race(...continuables)`
 ```
 var race = require('continuable-race')
-race(...continuables)(function (err, val) {
+race(cont1, cont2)(function (err, val) {
   // Use the continuable that finished first
 })
 ```
