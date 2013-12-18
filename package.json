@@ -1,0 +1,26 @@
+{
+  "name": "continuable-race",
+  "version": "0.0.1",
+  "description": "Race continuables against each other.",
+  "main": "race.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirfalt/continuable-race.git"
+  },
+  "keywords": [
+    "continuable",
+    "race"
+  ],
+  "author": "Emil Pirfält",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pirfalt/continuable-race/issues"
+  },
+  "homepage": "https://github.com/pirfalt/continuable-race"
+}

@@ -1,6 +1,5 @@
-// Race continuables against each other. Returns a new continuable
-// that results in the value of whatever continuable gets a value or
-// error first.
+// Race continuables against each other. Returns a new continuable that results
+// in the value of whatever continuable gets a value or error first.
 
 var slice = Array.prototype.slice
 module.exports = race
