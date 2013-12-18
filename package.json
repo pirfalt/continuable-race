@@ -1,6 +1,6 @@
 {
   "name": "continuable-race",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Race continuables against each other.",
   "main": "race.js",
   "directories": {
